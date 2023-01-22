@@ -32,16 +32,17 @@ class CreateAccount extends StatelessWidget {
         color: const Color.fromRGBO(16, 23, 30, 1.0),
         child: Column(
           children: [
-            const Padding(
-              padding: EdgeInsets.only(right: 100),
-              child: Text(
-                "Create account",
-                style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 32,
-                    fontWeight: FontWeight.bold),
+              const Align(
+                alignment: AlignmentDirectional.centerStart,
+                child: Text(
+                  "Create account",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 32,
+                      fontWeight: FontWeight.bold),
+                ),
               ),
-            ),
+
             const SizedBox(
               height: 15,
             ),
